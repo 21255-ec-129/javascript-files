@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task on dynamic</title>
+</head>
+<body>
+<script>
+	var g=[{
+		'name':'hii', 
+		'rolno':'15',  
+		'college':'gpt',
+		'branch':'ece'
+	},
+
+	{
+	  'name':'helo', 
+		'rolno':'16',  
+		'college':'acet',
+		'branch':'eee'
+	},
+	{
+	  'name':'hm', 
+		'rolno':'17',  
+		'college':'apt',
+		'branch':'cse'
+	}]
+	for (i=0;i<g.length;i++ )        //a is key value g[i]=a
+	{
+      for (a in g[i] )
+      {
+        document.write(g[i][a])
+        document.write(" ");
+      }
+      document.write("<br>");
+    }
+</script>
+</body>
+</html>

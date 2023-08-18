@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task 4</title>
+</head>
+<body>
+<script>
+	var g=[{
+		'name':'hii', 
+		'rolno':'15',  
+		'college':'gpt'
+	},
+
+	{
+	  'name':'helo', 
+		'rolno':'16',  
+		'college':'acet'
+	},
+	{
+	  'name':'hm', 
+		'rolno':'17',  
+		'college':'apt'
+	}]
+	document.write(g.length +"<br>");
+	for( var i=0;i<g.length;i++)
+	{
+		document.write(i+1 +" ",g[i].name+" " ,g[i].rolno+" " ,g[i].college)
+			document.write("<br>");   //or
+		// 	document.write(g[i].rolno )
+		// document.write("<br>");
+		// document.write(g[i].college )//static type
+		
+		console.log(i+1,g[i].name,g[i].rolno,g[i].college)
+	}
+		
+
+
+	
+</script>
+</body>
+</html>
